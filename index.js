@@ -18,7 +18,7 @@ app.use("/surveys", surveyRoute);
 app.use("/answers", answerRoute);
 
 // connect mongoose with survey db
-mongoose.connect("mongodb://mongo:27017/survey", {
+mongoose.connect("mongodb://localhost:27017/survey", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });

@@ -18,11 +18,15 @@ mongoose
 
 ## server start
 
-- npm start
+- yarn start
 
 ## test
 
-- npm test
+- yarn test
+
+## lint
+
+- yarn lint
 
 ## docker repository
 
